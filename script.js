@@ -1,3 +1,4 @@
+// PArt one//
 const student = {
     name: "Milli Weldu",   
     age: 20,
@@ -14,4 +15,13 @@ function displayStudentInfo(student) {
 console.log(student.name);
 console.log(student.age);
 displayStudentInfo(student);
+
+
+// Part two//
+const studentJson = JSON.stringify(student);
+console.log(studentJson);
+
+const studentFromJson= JSON.parse(studentJson);
+console.log(studentFromJson);
+console.log(student);
 
