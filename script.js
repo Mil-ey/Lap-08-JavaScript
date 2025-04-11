@@ -49,6 +49,25 @@ const updatedStudent = {...student, courses: newCourses};
 console.log(updatedStudent);  
 
 
+// Part five//
+
+student.addCourse = function(course) {
+    this.courses.push(course);
+}
+student.addCourse("Geography");
+console.log(student.courses);
+
+
+student.totalCourses = function() {
+    return this.courses.length;
+}
+console.log(student.totalCourses()); 
+
+
+
+
+
+
 
 
 
