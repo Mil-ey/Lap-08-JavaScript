@@ -1,3 +1,6 @@
+
+// This code demonstrates the use of objects, JSON, destructuring, cloning, and methods in JavaScript.//
+
 // PArt one//
 const student = {
     name: "Milli Weldu",   
@@ -66,6 +69,7 @@ console.log(student.totalCourses());
 // Bonus part//
 const averageScore = scores.reduce((acc, score) => acc + score, 0) / scores.length;
 console.log(averageScore); 
+
 
 
 
